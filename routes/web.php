@@ -19,6 +19,7 @@ Route::get('/','MainController@index')->name('home');
 Route::get('/liste-des-ligues','MainController@ligues')->name('ligues');
 Route::get('/planning','MainController@planning')->name('planning');
 Route::get('/contactez-nous','MainController@contact')->name('contact');
+Route::get('/rezdechaussee','rezdechausseeController@index')->name('plan');
 
 //URLs pour la gestion des ressourcee
 //Route ::resource('emprunteur', 'EmprunteurController') ;

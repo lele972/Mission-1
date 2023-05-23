@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="{{ asset('/owl-carousel/owl.theme.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/template-style.css') }}">
 
+    <script type="text/javascript"
+        
+        src="{{ asset('js/jquery-ui.min.js') }}"></script> 
 
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    <link href="{{ asset('css/app.css') }}" rel="stylessheet">
    
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
